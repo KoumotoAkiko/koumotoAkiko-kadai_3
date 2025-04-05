@@ -33,7 +33,7 @@ class WeightTargetController extends Controller
         return view('update',compact('target'));
     }
 
-    public function update(WeightTargetRequest $request,$id)
+    public function update(Request $request,$id)
     {
         $target=WeightTarget::where('user_id',Auth::id())->findOrFail($id);
         $target->target_weight=$request->target_weight;

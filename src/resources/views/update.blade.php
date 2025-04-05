@@ -15,7 +15,7 @@
                 <form class="update-form" action="{{route('weight_target.update',$target->id)}}" method="post">
                 @csrf
                 @method('PUT')
-                <input class="update-form__input" type="number" step="0.1" min="0" max="9999.9" id="target_weight" name="target_weight" value="{{ old($target->target_weight) }}"><span>kg</span>
+                <input class="update-form__input" type="number" step="0.1" min="0" max="9999.9" id="target_weight" name="target_weight" value="{{($target->target_weight) }}"><span>kg</span>
 
                 <p class="error-message">
                         @error('target_weight')

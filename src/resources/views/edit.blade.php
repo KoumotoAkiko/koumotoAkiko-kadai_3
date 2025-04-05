@@ -25,7 +25,7 @@
             </div>
             <div class="edit-form__group">
                 <label class="edit-form__label">体重</label>
-                <input class="edit-form__input" type="number" step="0.1" min="0" max="9999.9" id="weight" name="weight"  placeholder="{{$weightLog->weight}}"><span>kg</span>
+                <input class="edit-form__input" type="number" step="0.1" min="0" max="9999.9" id="weight" name="weight"  value="{{$weightLog->weight}}"><span>kg</span>
                     <p class="error-message">
                         @error('weight')
                         {{$message}}
@@ -34,7 +34,7 @@
             </div>
             <div class="edit-form__group">
                 <label class="edit-form__label">摂取カロリー</label>
-                <input class="edit-form__input" type="number" id="calories" name="calories" placeholder="{{$weightLog->calories}}"><span>cal</span>
+                <input class="edit-form__input" type="number" id="calories" name="calories" value="{{$weightLog->calories}}"><span>cal</span>
                     <p class="error-message">
                         @error('calories')
                         {{$message}}
