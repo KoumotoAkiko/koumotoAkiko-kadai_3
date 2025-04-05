@@ -1,0 +1,49 @@
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+.edit-form{
+    background-color: #FFFFFF;
+    padding: 30px;
+    border-radius: 8px;
+    width: 800px;
+    max-width: 90%;
+
+}
+.edit-form__group label,
+.edit-form__group input {
+    display: block;
+}
+.edit-form__label{
+    font-size: 14px;
+}
+.edit-form__input{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD;
+}
+.edit-exercise_content{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD;
+}
+.edit-form__actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.change-button{
+    background: linear-gradient(to right, rgba(163, 166, 255, 1), rgba(255, 171, 217, 1));
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}

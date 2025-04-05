@@ -1,0 +1,160 @@
+.admin__card-cnt {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.admin__card-block {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.admin__card-block h5 {
+    margin: 0;
+    font-size: 16px;
+    color: #333333;
+}
+
+.admin__card-block h2 {
+    margin: 8px 0 0;
+    font-size: 30px;
+    color: #333333;
+}
+
+
+/* 検索フォーム */
+.search-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+
+.search-form__search-btn{
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* テーブルデザイン */
+.admin__table {
+    background: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.admin__row:hover{
+    background-color: #F9F9F9;
+}
+
+.admin__label,
+.admin__date
+{
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+
+
+
+/* ページネーション */
+.pagination-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+
+
+/*トリガーボタンのデザイン*/
+.modal-btn{
+    background: linear-gradient(to right, rgba(163, 166, 255, 1), rgba(255, 171, 217, 1));
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    cursor:pointer;
+    border-radius: 12px;
+}
+
+/*モーダルの基本スタイル*/
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items:center;
+}
+/*モーダルの表示時*/
+.modal-toggle:checked + .modal{
+    display: flex;
+}
+/*背景*/
+.modal-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    cursor: pointer;
+}
+
+/*モーダルの内容*/
+.modal-content {
+    position: relative;
+    background:white;
+    padding: 20px 30px;
+    z-index: 2;
+    min-width: 300px;
+}
+.modal-header{
+    font-size: 16px;
+    color: #333333;
+}
+.modal-title{
+    font-family: Hiragino Kaku Gothic Pro;
+}
+.modal-form__group label,
+.modal-form__group input
+{
+    display: block;
+}
+
+
+.modal-form__required{
+    margin-right:20px;
+    background-color: #f03e3e;
+    color: #FFFF;
+}
+.modal-form__group__input{
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #CDCDCD;
+}
+
+.modal-form__actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-form__btn{
+    background: linear-gradient(to right, rgba(163, 166, 255, 1), rgba(255, 171, 217, 1));
+    color: white;
+    padding: 10px 10px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 12px;
+    border: none;
+}

@@ -1,0 +1,47 @@
+body{
+    background: linear-gradient(to button,#A3A6E1,#FFABD9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-form{
+
+    top:211px;
+    left:466px;
+    right: 466px;
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    text-align: center;
+    width: 580px;
+    height: auto;
+    border:1px solid#ccc;
+
+
+}
+
+.login-form__heading{
+    font-size: 60px;
+    font-family: Lora;
+    font-weight: 400;
+    color: #EC87EF;
+    margin-bottom: 10px;
+}
+
+.login-form__headin-title{
+    font-size: 30px;
+    font-family: Hiragino Mincho Pro;
+    font-weight: 300;
+}
+
+.login-form__inner {
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    width: 100;
+    height: 48px;
+    border: none;
+}
